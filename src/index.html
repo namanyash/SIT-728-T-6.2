@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Betting App</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div>
+      <button id="metamask-button" class="btn-info">Connect to Metamask</button>
+    </div>
+    <div class="betting-box">
+      <h4>Choose one of the two colors</h4>
+      <button id="green-button" class="btn-success">GREEN</button>
+      <button id="red-button" class="btn-danger">RED</button> </br></br>
+      <label>Bet Value</label>
+      <input type="text" class="form-control" id="bet-value" placeholder="Enter ether value"/>  
+    </br>
+      <button id="bet-button" class="btn-primary btn-block">Place a bet</button>
+    </div>
+    <div class="betting-box">
+      <h3>Player Wins = <span id="win-count"></span></h3>
+      <h3>Player Losses = <span id="loss-count"></span></h3>
+      <h3>Player ETH Winnings = <span id="win-amount"></span></h3>
+      <h3>Player ETH Loss = <span id="loss-amount"></span></h3>
+    </br>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/truffle-contract.js"></script>
+  </body>
+</html>

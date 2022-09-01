@@ -1,0 +1,30 @@
+.betting-box{
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 30%;
+    background-color: beige;
+    position: relative;
+    top: 50px;
+}
+
+#green-button{
+    position: absolute;
+    left: 15%;
+    padding: 5px; 
+}
+
+#red-button{
+    position: absolute;
+    right: 15%;
+    padding: 5px;
+}
+
+#bet-button{
+    padding: 5px;
+}
+#metamask-button{
+    position: fixed;
+    top:5px;
+    right: 5px;
+}
